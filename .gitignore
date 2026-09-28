@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Locally generated Laya checkpoints
+runs/*/model.safetensors
+runs/*/encoder/
+runs/*/tokenizer/
+runs/*/rl_agent_config.json
